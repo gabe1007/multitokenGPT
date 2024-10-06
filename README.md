@@ -10,7 +10,7 @@ In my previous repository, [GPT-40k](https://github.com/gabe1007/GPT-40k), I tra
 
 The results of that training can be seen below:
 
-![Vanilla GPT](./Screenshot_vanilla.png)
+![Vanilla GPT](./Vanilla_pred.png)
 
 <p align="center"><em>Figure 2: Vanilla GPT results</em></p>
 
