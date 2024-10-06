@@ -1,8 +1,9 @@
 # MultitokenGPT_40k
 
-![Multitoken Image](./multitoken_image.png)
-
-<p align="center"><em>Figure 1: Multitoken GPT architecture</em></p>
+<div align="center">
+  <img src="./multitoken_image.png" alt="Multitoken Image">
+  <p><em>Figure 1: Multitoken GPT architecture</em></p>
+</div>
 
 ## Context
 
@@ -10,9 +11,10 @@ In my previous repository, [GPT-40k](https://github.com/gabe1007/GPT-40k), I tra
 
 The results of that training can be seen below:
 
-![Vanilla GPT](./Vanilla_pred.png)
-
-<p align="center"><em>Figure 2: Vanilla GPT results</em></p>
+<div align="center">
+  <img src="./Vanilla_pred.png" alt="Vanilla GPT">
+  <p><em>Figure 2: Vanilla GPT results</em></p>
+</div>
 
 It was a simple architecture, I believe the results are quite good. With more data and additional training time, the model could perform even better.
 
@@ -139,9 +141,10 @@ def generate(self, idx, max_new_tokens):
 ```
 Here, we focus on the first output head, which is trained to predict the immediate next token—similar to traditional next-token prediction.
 
-![Vanilla GPT](./Multitoken_pred.png)
-
-<p align="center"><em>Figure 3: Multitoken GPT results</em></p>
+<div align="center">
+  <img src="./Multitoken_pred.png" alt="Vanilla GPT">
+  <p><em>Figure 3: Multitoken GPT results</em></p>
+</div>
 
 ## Conclusion
 This project was a great opportunity to apply the concepts from Meta's multitoken prediction paper. By modifying the existing transformer code, I was able to experiment with this approach. While training took slightly longer than the vanilla implementation, the results were cool. It was nice to implement this paper, I learned a lot.
